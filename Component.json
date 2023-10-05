@@ -1,0 +1,445 @@
+{
+  "focus-inset": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "3",
+      "color": "{base.White}",
+      "type": "innerShadow"
+    },
+    "type": "boxShadow"
+  },
+  "link": {
+    "$link-primary": {
+      "value": "{semantic.colors.foregrounds.fg-interactive}",
+      "type": "color"
+    },
+    "$link-hover": {
+      "value": "{semantic.colors.foregrounds.fg-interactive-hover}",
+      "type": "color",
+      "description": "Hover color for $button-primary"
+    },
+    "$link-active": {
+      "value": "{semantic.colors.foregrounds.fg-interactive-hover}",
+      "type": "color",
+      "description": "Active color for $button-primary"
+    }
+  },
+  "icon": {
+    "$icon-XS": {
+      "value": "16px",
+      "type": "sizing",
+      "description": "Small icon size. Pairs with font-size 12px"
+    },
+    "$icon-S": {
+      "value": "20px",
+      "type": "sizing",
+      "description": "Small icon size. Pairs with font-size 14px"
+    },
+    "$icon-M": {
+      "value": "24px",
+      "type": "sizing",
+      "description": "Medium icon size. Pairs with font-size 16px/18px"
+    },
+    "$icon-L": {
+      "value": "32px",
+      "type": "sizing",
+      "description": "Large icon size. Pairs with font-size 20px/24px"
+    }
+  },
+  "10%": {
+    "value": "10%",
+    "type": "opacity"
+  },
+  "15%": {
+    "value": "15%",
+    "type": "opacity"
+  },
+  "25%": {
+    "value": "25%",
+    "type": "opacity"
+  },
+  "heading": {
+    "heading-01": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Semi-bold}",
+        "lineHeight": "1.25 rem",
+        "fontSize": "{$body-M}",
+        "letterSpacing": "0.16px"
+      },
+      "type": "typography",
+      "description": "This is for component and layout headings. It pairs with $body-01."
+    },
+    "heading-02": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Semi-bold}",
+        "lineHeight": "1.5 rem",
+        "fontSize": "{$body-M}",
+        "letterSpacing": "0"
+      },
+      "type": "typography",
+      "description": "This is for smaller layout headings. It pairs with $body-02."
+    },
+    "heading-03": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1.75 rem",
+        "fontSize": "20px",
+        "letterSpacing": "0"
+      },
+      "type": "typography",
+      "description": "This is for component and layout headings."
+    },
+    "heading-04": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "2.25 rem",
+        "fontSize": "28px",
+        "letterSpacing": "0"
+      },
+      "type": "typography",
+      "description": "This is for layout headings."
+    },
+    "heading-05": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "2.5 rem",
+        "fontSize": "32px",
+        "letterSpacing": "0"
+      },
+      "type": "typography",
+      "description": "This is for layout headings."
+    },
+    "heading-06": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Light}",
+        "lineHeight": "3.125 rem",
+        "fontSize": "42px",
+        "letterSpacing": "0"
+      },
+      "type": "typography",
+      "description": "This is for layout headings."
+    },
+    "heading-07": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Light}",
+        "lineHeight": "4 rem",
+        "fontSize": "54px"
+      },
+      "type": "typography",
+      "description": "This is for layout headings."
+    }
+  },
+  "Inter": {
+    "value": "Inter",
+    "type": "fontFamilies",
+    "description": "Main font family"
+  },
+  "20%": {
+    "value": "20%",
+    "type": "opacity"
+  },
+  "body": {
+    "body-01": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1.25 rem",
+        "fontSize": "14px"
+      },
+      "type": "typography",
+      "description": "With a slightly taller line height than body-compact-01, this body style is used in productive layouts for long paragraphs with more than four lines. Use also for longer body copy in components such as accordion or structured list. It is always left-aligned. Body-long-01 can also be used for productive moments within expressive experiences."
+    },
+    "body-01-compact": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1.125rem",
+        "fontSize": "14px",
+        "letterSpacing": ".16px"
+      },
+      "type": "typography",
+      "description": "This is for short paragraphs with no more than four lines and is commonly used in components."
+    },
+    "body-02": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1.5 rem",
+        "fontSize": "{$body-M}"
+      },
+      "type": "typography",
+      "description": "With a slightly taller line height than body-compact-02, this style is commonly used in expressive layouts for long paragraphs with four lines or more. It is always left-aligned."
+    },
+    "body-02-copy": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1.375rem",
+        "fontSize": "{$body-M}"
+      },
+      "type": "typography",
+      "description": "This is for short paragraphs with no more than four lines. Use in expressive components, such as button and link."
+    }
+  },
+  "utility": {
+    "label-01": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1 rem",
+        "fontSize": "12px",
+        "letterSpacing": ".32px"
+      },
+      "type": "typography",
+      "description": "This is a multipurpose type style that can be used for field labels in components, error messages, and captions. It should not be used for body copy."
+    },
+    "label-02": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1.125rem",
+        "fontSize": "{$body-S}",
+        "letterSpacing": ".16px"
+      },
+      "type": "typography",
+      "description": "This is a multipurpose type style that can be used for field labels in components, error messages, and captions. It should not be used for body copy."
+    },
+    "helper-text-01": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1 rem",
+        "fontSize": "12px",
+        "letterSpacing": ".32px"
+      },
+      "type": "typography",
+      "description": "This is a multipurpose type style that can be used for field labels in components, error messages, and captions. It should not be used for body copy."
+    },
+    "helper-text-02": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "1.125rem",
+        "fontSize": "{$body-S}",
+        "letterSpacing": ".16px"
+      },
+      "type": "typography",
+      "description": "This is a multipurpose type style that can be used for field labels in components, error messages, and captions. It should not be used for body copy."
+    },
+    "label-button-01": {
+      "value": {
+        "fontFamily": "{Inter}",
+        "fontWeight": "{Medium}"
+      },
+      "type": "typography",
+      "description": "Typography for button labels"
+    },
+    "label-button-02": {
+      "value": {
+        "fontWeight": "{Medium}",
+        "fontFamily": "{Inter}",
+        "fontSize": "13px"
+      },
+      "type": "typography"
+    },
+    "label-button-03": {
+      "value": {
+        "fontWeight": "{Medium}",
+        "fontFamily": "{Inter}",
+        "fontSize": "{$body-M}"
+      },
+      "type": "typography"
+    }
+  },
+  "Underline": {
+    "value": "underline",
+    "type": "textDecoration"
+  },
+  "line-through": {
+    "value": "line-through",
+    "type": "textDecoration"
+  },
+  "global-border-radius": {
+    "value": "2px",
+    "type": "borderRadius"
+  },
+  "rounded": {
+    "value": "100%",
+    "type": "borderRadius"
+  },
+  "focus-outset": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "2",
+      "color": "{gradient.teal-45deg}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "drop": {
+    "value": [
+      {
+        "x": "0",
+        "y": "0",
+        "blur": "10",
+        "spread": "0",
+        "color": "rgba(0,99,110,0.2)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0",
+        "y": "1",
+        "blur": "3",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.15)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "rgba(0,99,110,0.15)",
+        "type": "innerShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "button-inner-shadow-active": {
+    "value": [
+      {
+        "x": "0",
+        "y": "0",
+        "blur": "3",
+        "spread": "1",
+        "color": "rgba(0,0,0,0.3)",
+        "type": "innerShadow"
+      },
+      {
+        "x": "0",
+        "y": "0",
+        "blur": "10",
+        "spread": "0",
+        "color": "rgba(0,99,110,0.4",
+        "type": "innerShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "button-inner-shadow-hover": {
+    "value": [
+      {
+        "x": "0",
+        "y": "0",
+        "blur": "3",
+        "spread": "1",
+        "color": "rgba(0,0,0,0.2)",
+        "type": "innerShadow"
+      },
+      {
+        "x": "0",
+        "y": "0",
+        "blur": "10",
+        "spread": "0",
+        "color": "rgba(0,99,110,0.2)",
+        "type": "innerShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "typography": {
+    "content-switcher": {
+      "small": {
+        "enabled": {
+          "value": {
+            "fontFamily": "{Inter}",
+            "fontSize": "{font-sizes.sm}",
+            "lineHeight": "{line-heights.normal}",
+            "textDecoration": "{text-decorations.none}",
+            "fontWeight": "{font-weights.regular}"
+          },
+          "type": "typography"
+        },
+        "focus": {
+          "value": {
+            "fontFamily": "{Inter}",
+            "fontSize": "{font-sizes.sm}",
+            "lineHeight": "{line-heights.normal}",
+            "textDecoration": "{text-decorations.none}",
+            "fontWeight": "{font-weights.semi-bold}"
+          },
+          "type": "typography"
+        }
+      },
+      "medium": {
+        "enabled": {
+          "value": {
+            "fontFamily": "{font-families.body}",
+            "fontWeight": "{font-weights.regular}",
+            "textDecoration": "{text-decorations.none}",
+            "lineHeight": "{line-heights.normal}",
+            "fontSize": "{font-sizes.sm}"
+          },
+          "type": "typography"
+        },
+        "focus": {
+          "value": {
+            "fontFamily": "{font-families.body}",
+            "fontWeight": "{font-weights.semi-bold}",
+            "textDecoration": "{text-decorations.none}",
+            "lineHeight": "{line-heights.normal}",
+            "fontSize": "{font-sizes.sm}"
+          },
+          "type": "typography"
+        }
+      },
+      "large": {
+        "enabled": {
+          "value": {
+            "fontFamily": "{font-families.body}",
+            "fontWeight": "{font-weights.regular}",
+            "lineHeight": "{line-heights.compact}",
+            "fontSize": "{font-sizes.md}",
+            "textDecoration": "{text-decorations.none}"
+          },
+          "type": "typography"
+        },
+        "active": {
+          "value": {
+            "fontFamily": "{font-families.body}",
+            "fontWeight": "{font-weights.semi-bold}",
+            "lineHeight": "{line-heights.normal}",
+            "fontSize": "{font-sizes.md}",
+            "textDecoration": "{text-decorations.none}"
+          },
+          "type": "typography"
+        }
+      }
+    }
+  },
+  "button": {
+    "button-primary-bg": {
+      "value": "linear-gradient(110deg, {colors.green.persian} 0%, {colors.teal.teal} 100%)",
+      "type": "color"
+    },
+    "button-primary-bg-hover": {
+      "value": "linear-gradient(110deg, {colors.green.persian} 0%, {colors.teal.lagoon} 100%)",
+      "type": "color"
+    }
+  },
+  "input": {
+    "value": "{semantic.colors.background.bg-02}",
+    "type": "color"
+  }
+}
